@@ -4,7 +4,6 @@ from llama_index import StorageContext, load_index_from_storage, GPTVectorStoreI
 
 #os.environ['OPENAI_API_KEY'] = 'OPEN AI API KEY HERE'
 st.title("Query ISLR with Llama Index")
-st.subheader("Code is hosted here: ")
          
 storage_context = StorageContext.from_defaults(persist_dir="./storage")
 
